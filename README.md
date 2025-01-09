@@ -25,7 +25,7 @@ A fun and interactive memory game where players replicate a sequence of colors t
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/simon-says-game.git
+   git clone https://github.com/meetchauhan18/simon-says-game.git
 2. Navigate to the project directory:
    ```bash
    cd simon-says-game
