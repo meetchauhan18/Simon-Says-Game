@@ -1,0 +1,201 @@
+@import url('https://fonts.cdnfonts.com/css/lvdc-game-over');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'LVDC Game Over 2', sans-serif;
+}
+
+body{
+    background-color: #00487C;
+}
+
+header{
+    background-color: #00487C;
+    height: 15vmin;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 85vmin;
+    width: 100%;
+    color: #fff;
+    overflow: auto;
+}
+
+.level-msg-container{
+    width: 60vmin;
+    height: 15vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 14px;
+    background-color: black;
+}
+
+
+
+#level-msg{
+    font-size: 9px;
+    border-bottom: 1px solid #ffffff;
+    padding: 2px;
+    text-align: center;
+}
+
+.btn-container{
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 14px;
+    background-color: black;
+}
+
+.first-row, .second-row{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 14px;
+    border: 5px solid #ffffff;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.gameflash{
+    background-color: #fff !important;
+}
+
+#userFlash{
+    background-color: #09e53c !important;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+}
+
+@media only screen and (max-width: 620px){
+    /* For mobile phones: */
+    [class = "main-container"] {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    [id = "header"]{
+        height: 15vh;
+    }
+
+    [class = "level-msg-container"]{
+        width: 85vw;
+        height: 13vw;
+    }
+
+    [class = "btn"]{
+        width: 35vw;
+        height: 35vw;
+    }
+
+    [class = "btn-container"]{
+        width: 85vw;
+        height: 85vw;
+    }
+
+    [class = "msg"]{
+        font-size: 10px;
+    }
+
+    [class = "title"]{
+        font-size: 25px;
+
+    }
+
+    [class = "sub-title"]{
+        font-size: 12px;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 400px){
+    /* For mobile phones: */
+    [class = "main-container"] {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    [class = "level-msg-container"]{
+        height: auto;
+        padding: 10px;
+    }
+
+    [class = "btn"]{
+        width: 35vw;
+        height: 35vw;
+    }
+
+    [class = "btn-container"]{
+        width: 85vw;
+        height: 85vw;
+    }
+
+    [id = "header"]{
+        height: auto;
+        padding: 6px;
+    }
+
+    [id = "level-msg"]{
+        font-size: 1px;
+    }
+
+    [class = "title"]{
+        font-size: 10px;
+    }
+
+    [class = "msg"]{
+        font-size: 6px;
+        text-decoration: none;
+    }
+
+
+
+
+  }
